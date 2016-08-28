@@ -4,7 +4,7 @@
   "description": "An application to create and run scripts that collect data from the web.",
   "main": "index.js",
   "scripts": {
-    "test": "test",
+    "test": "jest",
     "babel": "babel",
     "webpack": "webpack"
   },
@@ -30,14 +30,17 @@
   "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.14.0",
+    "babel-jest": "^14.1.0",
     "babel-loader": "^6.2.5",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-react-html-attrs": "^2.0.0",
     "babel-plugin-transform-class-properties": "^6.11.5",
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-polyfill": "^6.13.0",
     "babel-preset-es2015": "^6.14.0",
     "babel-preset-react": "^6.11.1",
     "babel-preset-stage-0": "^6.5.0",
+    "jest-cli": "^14.1.0",
     "react": "^15.3.1",
     "react-dom": "^15.3.1",
     "webpack": "^1.13.2"
